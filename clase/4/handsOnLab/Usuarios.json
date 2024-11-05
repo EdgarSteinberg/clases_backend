@@ -1,0 +1,14 @@
+[
+	{
+		"nombre": "Edgar",
+		"apellido": "Steinberg",
+		"edad": 34,
+		"curso": "Sql"
+	},
+	{
+		"nombre": "Juan",
+		"apellido": "Sin Apellido",
+		"edad": 33,
+		"curso": "UX/UI"
+	}
+]
