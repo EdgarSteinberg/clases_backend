@@ -1,0 +1,10 @@
+<h1>Usuarios</h1>
+<div id="users"></div>
+
+<script>
+    const userDiv = document.getElementById("users");
+
+    const users = fetch("/api/users")
+        .then(res => res.json())
+        .then(json => userDiv.innerHTML = JSON.stringify(json, null, "\t"));
+</script>
