@@ -1,0 +1,32 @@
+[
+	{
+		"id": 2,
+		"title": "MaritaMarita",
+		"description": "marita@gmail.com",
+		"code": "Programacion",
+		"price": 100,
+		"stock": 20,
+		"category": "marita@gmail.com",
+		"thumbnails": []
+	},
+	{
+		"id": 3,
+		"title": "Agau",
+		"description": "agua",
+		"code": "20",
+		"price": "20",
+		"stock": "22",
+		"category": "bebidas",
+		"thumbnails": []
+	},
+	{
+		"id": 4,
+		"title": "Agau",
+		"description": "agua",
+		"code": "20",
+		"price": "20",
+		"stock": "22",
+		"category": "bebidas",
+		"thumbnails": []
+	}
+]
