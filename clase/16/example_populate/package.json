@@ -1,0 +1,17 @@
+{
+  "name": "example_populate",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Edgar B. Steinberg",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mongoose": "^8.8.3"
+  }
+}
