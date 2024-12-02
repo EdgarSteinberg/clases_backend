@@ -1,0 +1,27 @@
+<h1>Estudiantes</h1>
+<div class="box">
+    {{#if isValid}}
+       <div>
+        {{#each docs}}
+            <div>
+                <p>Nombre: {{this.first_name}}, Apellido: {{this.last_name}}</p>
+                <p>Grupo: {{this.group}}</p>
+            </div>
+        {{/each}}
+       </div>
+       <hr>
+       <div>
+        {{#if hasPrevPage}}
+            <a href="{{this.prevLink}}"><< Anterior</a>
+        {{/if}}
+       </div>
+       <br>
+       <div>
+        {{#if hasNextPage}}
+            <a href="{{this.nextLink}}">Siguiente >></a>
+        {{/if}}
+       </div>
+    {{else}}
+       <h1>NO hay estudiantes para mostrar</h1>
+    {{/if}}
+</div>
