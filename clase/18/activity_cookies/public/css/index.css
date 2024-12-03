@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+}
+
+button {
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #64d73e;
+    border-radius: 8px;
+}
+
+button:hover{
+    color: #64d73e;
+    border-color: #64d73e;
+    background-color: white;
+}
