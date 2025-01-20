@@ -1,0 +1,20 @@
+{
+  "name": "handsonlab",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Edgar Stein",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.4.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

@@ -12,7 +12,7 @@ const orderSchema = new mongoose.Schema({
         type: mongoose.SchemaTypes.ObjectId,
         ref: "users_class29"
     },
-    productos : [],
+    products : [],
     totalPrice: Number,
     status: String
 });
